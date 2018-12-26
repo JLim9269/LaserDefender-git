@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4521828288691856}
   - component: {fileID: 212942783532071830}
   - component: {fileID: 114460678503738470}
+  - component: {fileID: 114059885810354262}
+  - component: {fileID: 58788643798522754}
   m_Layer: 0
   m_Name: Enemy 2
   m_TagString: Untagged
@@ -35,12 +37,39 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1016845747059926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.4, z: 0}
+  m_LocalPosition: {x: 1.1002169, y: -4.9149003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &58788643798522754
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1016845747059926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.013884366}
+  serializedVersion: 2
+  m_Radius: 0.4788844
+--- !u!114 &114059885810354262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1016845747059926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc36777040607248b1ea664c24e2a0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!114 &114460678503738470
 MonoBehaviour:
   m_ObjectHideFlags: 1
