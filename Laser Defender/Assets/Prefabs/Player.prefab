@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 4375226931231310}
   - component: {fileID: 212524593973512910}
   - component: {fileID: 114480821944530546}
-  m_Layer: 0
+  - component: {fileID: 60085302736468124}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,6 +42,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60085302736468124
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285020294360618}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.99, y: 0.75}
+    newSize: {x: 0.99, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48815984, y: 0.09065533}
+      - {x: 0.37937346, y: -0.007221222}
+      - {x: 0.24063928, y: 0.07067108}
+      - {x: 0.1494552, y: 0.1237793}
+      - {x: 0.125, y: 0.235}
+      - {x: 0.09376716, y: 0.375}
+      - {x: -0.105, y: 0.375}
+      - {x: -0.145, y: 0.125}
+      - {x: -0.265, y: 0.06499958}
+      - {x: -0.36770388, y: 0.0017986298}
+      - {x: -0.49499997, y: 0.095}
+      - {x: -0.47433585, y: -0.23811817}
+      - {x: -0.41811198, y: -0.22994709}
+      - {x: -0.145, y: -0.295}
+      - {x: -0.095, y: -0.375}
+      - {x: 0.105, y: -0.375}
+      - {x: 0.14555976, y: -0.28870964}
+      - {x: 0.255, y: -0.2643547}
+      - {x: 0.32613385, y: -0.23590755}
+      - {x: 0.38932562, y: -0.22264671}
+      - {x: 0.45499998, y: -0.265}
+      - {x: 0.4812238, y: -0.2550001}
 --- !u!114 &114480821944530546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
+  health: 200
   laserPrefab: {fileID: 1361608039990772, guid: daf73759962863c4c84752c6cfd41e17,
     type: 2}
   projectileSpeed: 20
