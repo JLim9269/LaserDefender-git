@@ -106,6 +106,10 @@ MonoBehaviour:
     type: 2}
   projectileSpeed: 20
   projectileFiringPeriod: 0.05
+  deathSound: {fileID: 8300000, guid: 9ba506b54c214584f910d0a74e2eee4b, type: 3}
+  shootingSound: {fileID: 8300000, guid: 99cf351c76bd2b54e9dfd65752402005, type: 3}
+  deathSoundVolume: 1
+  shootingSoundVolume: 0.1
 --- !u!212 &212524593973512910
 SpriteRenderer:
   m_ObjectHideFlags: 1
